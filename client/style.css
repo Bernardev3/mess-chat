@@ -1,0 +1,85 @@
+* {
+	font-family: sans-serif;
+	max-width: 10000px;
+}
+
+body {
+	background-color: rgb(40, 40, 40);
+	color: white;
+	text-align: center;
+}
+
+#form {
+	display: block;
+	text-align: left;
+	position: fixed;
+	bottom: 0;
+	background-color: rgb(20, 20, 20);
+	align-items: center;
+	width: 96%;
+	padding: 10px;
+	border-radius: 10px;
+	padding: 15px;
+	height: 60px;
+}
+
+#sendButton {
+	cursor: pointer;
+	background-color: green;
+	color: white;
+	padding: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-size: large;
+	border-radius: 10px;
+	border: none;
+	margin: 5px;
+}
+
+#sendButton:hover {
+	background-color: darkgreen;
+}
+
+#message {
+	padding: 3px;
+	padding-left: 6px;
+	padding-right: 6px;
+	width: 800px;
+	font-size: large;
+	font-weight: lighter;
+	border-radius: 8px;
+	border: 2px solid black;
+}
+
+#username {
+	padding: 3px;
+	padding-left: 6px;
+	padding-right: 6px;
+	font-size: large;
+	font-weight: lighter;
+	width: 300px;
+	border-radius: 8px;
+	border: 2px solid black;
+}
+
+#sendedMessages {
+	height: 470px;
+	overflow-y: auto;
+ 	overflow-x: hidden;
+ 	text-align: left;
+}
+
+.author {
+	font-size: large;
+	font-weight: bolder;
+}
+
+.message {
+	background-color: whitesmoke;
+	border: 3px black solid;
+	color: black;
+	width: 410px;
+	border-radius: 10px;
+	margin: 5px;
+	padding: 10px;
+}
