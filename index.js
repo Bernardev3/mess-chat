@@ -18,6 +18,10 @@ app.get("/script.js", function(req, res) {
 	res.sendFile(__dirname + "/client/script.js");
 });
 
+app.get("*", function(req, res) {
+	res.sendFile(__dirname + "/client/404.html");
+});
+
 io.on("connection", function(socket) {
 	console.log(`Um usuário com o ID: ${socket.id} se conectou`);
 
