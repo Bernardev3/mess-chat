@@ -25,7 +25,3 @@ socket.on("receive messages", function(messages) {
 		`</div>`;
 	});
 });
-
-setInterval(function() {
-	socket.emit("request messages");
-}, 100);
